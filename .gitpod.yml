@@ -1,5 +1,6 @@
 ports:
   - port: 8080
     visibility: public
-image: 
+
+image:
   file: .gitpod.Dockerfile
