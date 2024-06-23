@@ -37,10 +37,10 @@ CREATE TABLE result (
 CREATE TABLE result_history (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
     activityId BIGINT,
-    result_id BIGINT,
+    resultId BIGINT,
     status VARCHAR(50),
     output TEXT,
     result_time TIMESTAMP,
     FOREIGN KEY (activityId) REFERENCES activity(id),
-    FOREIGN KEY (result_id) REFERENCES result(id)
+    FOREIGN KEY (resultId) REFERENCES result(id)
 );

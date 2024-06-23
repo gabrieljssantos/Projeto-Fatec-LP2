@@ -40,15 +40,4 @@ public class Result {
   private LocalDateTime createdAt;
 
 
-  public Result(String activityCode, String sourceCode, Long resultId, String author, String filename, String status, LocalDateTime createdAt) {
-    this.activityCode = activityCode;
-    this.sourceCode = sourceCode;
-    this.resultId = resultId;
-    this.author = author;
-    this.filename = filename;
-    this.status = status;
-    this.createdAt = createdAt;
-  }
-
-
 }

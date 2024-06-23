@@ -34,15 +34,15 @@ Recomendo a utilização do projeto via Gitpod, mas caso necessário, pode-se cl
 #### Preparação de ambiente via Clone do Repositorio:
 
 1. Clone o repositorio do Projeto https://github.com/gabrieljssantos/Projeto-Fatec-LP2
-2. Entre dentro da raiz do repositorio
-3. Abra com a IDE de preferencia
-4. Após acesso a IDE, podemos rodar os comandos necessários para buildar o projeto
+2. Entre dentro da raiz do repositorio, e abra com a IDE de preferencia
+3. Depois dos passos acima, abra o programa chamado "Docker Desktop"
+4. Após acesso abrir o Docker Desktop, dentro da sua IDE, podemos rodar os comandos necessários para buildar o projeto
 
 ####  Comandos Necessários para Build
 
 1. Rodar o comando do docker compose: "docker-compose up --build"
 2. Dentro do terminal, podemos acessar a área de "PORTS" para obter a URL do projeto.<br>
-    Exemplo de URL/Porta: https://8080-gabrieljssa-projetofate-x7j86dqiofb.ws-us114.gitpod.io
+    Mas por padrão, será utilizada a URL: http://localhost:8080/
 3. Essa será a URL utilizada dentro do POSTMAN para envio das requisições.
 
 ## Endpoints
