@@ -1,0 +1,231 @@
+{
+	"info": {
+		"_postman_id": "69da968e-9907-466f-83c4-643753fce83d",
+		"name": "LP2 - Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23745190"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/activity/solution",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "author",
+							"value": "Gabriel",
+							"type": "default"
+						},
+						{
+							"key": "activityCode",
+							"value": "A",
+							"type": "default"
+						},
+						{
+							"key": "filename",
+							"value": "elevarA.py",
+							"type": "default"
+						},
+						{
+							"key": "sourceCode",
+							"type": "file",
+							"src": "/C:/Users/Gabriel/Desktop/elevarA.py"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/activity/solution",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"activity",
+						"solution"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/activity/solution",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "author",
+							"value": "Gabriel",
+							"type": "default"
+						},
+						{
+							"key": "activityCode",
+							"value": "A",
+							"type": "default"
+						},
+						{
+							"key": "filename",
+							"value": "elevarA.py",
+							"type": "default"
+						},
+						{
+							"key": "sourceCode",
+							"type": "file",
+							"src": "/C:/Users/Gabriel/Desktop/elevarA.py"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/activity/solution",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"activity",
+						"solution"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/activity",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/activity",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"activity"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/activity",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"filename\": \"elevarA\",\r\n    \"activityCode\": \"A\",\r\n    \"lps\": \"python\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/activity",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"activity"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/tc",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "activityCode",
+							"value": "A",
+							"type": "default"
+						},
+						{
+							"key": "inputFile",
+							"type": "file",
+							"src": "/C:/Users/Gabriel/Desktop/inputFile.txt"
+						},
+						{
+							"key": "outputFile",
+							"type": "file",
+							"src": "/C:/Users/Gabriel/Desktop/expectedOutputFile.txt"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/tc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"tc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/tc",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "activityCode",
+							"value": "A",
+							"type": "default"
+						},
+						{
+							"key": "inputFile",
+							"type": "file",
+							"src": "/C:/Users/Gabriel/Desktop/inputFile.txt"
+						},
+						{
+							"key": "outputFile",
+							"type": "file",
+							"src": "/C:/Users/Gabriel/Desktop/expectedOutputFile.txt"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/tc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"tc"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

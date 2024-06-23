@@ -216,3 +216,6 @@ print(resultado)
 ```
 
 
+## Collection do Postman
+
+Na raiz do projeto, se encontra para maiores exemplos e informações de envio via POSTMAN, a collection utilizada durante os testes. o  arquivo se chama <b>"LP2 - Collection.postman_collection.json"</b> e pode ser utilizada para complementar o entendimento dos envios de test via POSTMAN.
